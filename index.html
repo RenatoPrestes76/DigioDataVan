@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>DigioDataMobile</title>
 </head>
 <body>
-    <header>
-        <h1>Inicio de uma história!</h1>
-    </header>
+    <main>
+        <header>
+            <div id="inf-login">
+                <h2 id="ola">Olá!</h2>
+                <p id="msg-login">Somos a DigioData, por favor realize seu Login<br>
+                ou faça seu cadastro.</p>
+                <div id="dados-login">
+                    <div id="input-login">
+                        <p id="usuario">Usuário:</p>
+                        <input autocomplete="off" type="text" id="user" class="input" placeholder="Usuário"></input>
+                    </div>
+                    <div id="input-password">
+                        <p id="senha">Senha:</p>
+                        <input autocomplete="off" type="password" id="password" class="input" placeholder="Senha"></input>
+                    </div>
+                    <div id="textErro">
+                        <p>Ops, usuário ou senha inválidos.<br> Tente novamente!</p>
+                    </div>
+                    <div id="cadastro">
+                        <button>Cadastre-se</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
     
 </body>
 </html>
